@@ -20,10 +20,10 @@ Before you start, ensure you have the following setup:
     PASSPHRASE=pass
    ```
 
-4. **Extract the Private Key** (if needed): If required, you can extract the private key from your PFX file using the following OpenSSL command:
+4. **Extract Certification Chain** (needed in "Správa certifikatů" v portálu eDoklady) and submit it via web interface
 
    ```bash
-   openssl pkcs12 -in yourfile.pfx -nocerts -out private_key.pem
+   openssl pkcs12 -in yourfile.pfx -clcerts -nokeys -out cert_chain.pem
    ```
 
 ## Important Notes
