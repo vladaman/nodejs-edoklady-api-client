@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-edoklady-api-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vladimir Vlach",
+  "license": "ISC",
+  "description": "Because who doesn’t love diving into the labyrinthine world of government APIs? This repository contains a supercharged client for the eDoklady API, designed for those brave enough to venture into the depths of bureaucratic complexity. 🌐✨",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "superagent": "^10.1.1"
+  }
+}
